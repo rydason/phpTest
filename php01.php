@@ -3,12 +3,12 @@
 //1. $a　という変数に3を、$b　という変数に7を代入して、echoを使って$a+$bの結果を表示してみましょう。
 $a = 3;
 $b = 7;
-echo $a + $b;"<br />";
+echo $a + $b;
 echo '<hr>';
 
 //2. $array_month という配列に1月〜12月の文字列を代入し、echoで8月を表示してみましょう。
 $array_month = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
-echo $array_month[8];
+echo $array_month[7];
 echo '<hr>';
 
 //3. $hello　という変数に　”Hello, “を $name という変数にあなたの名前を、　
@@ -17,7 +17,7 @@ echo '<hr>';
     $name = "頼大森";
     $world = "‘s World!";
 
-    echo $hello .= $name .= $world;
+    echo $hello . $name . $world;
     echo '<hr>';
 //4. $tech_boostに “tech “という文字列が代入されています。複合演算を使って、echo $tech_boost:と実行すると「tech boost」と表示されるように実装してみましょう。
     $tech_boost = "tech ";
