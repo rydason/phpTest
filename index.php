@@ -22,7 +22,7 @@ var_dump($result);
 // === は左項と右項が同じ型で同じ値を持つか判定する
 $a = "20";
 $b = 20;
-
+ 
 $result = $a == $b;    
 var_dump($result);
 //=> true が表示される
